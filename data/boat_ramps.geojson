@@ -6394,11 +6394,5 @@
             "shape_leng": 34.194520793,
             "shape_area": 49.0038352887
         }
-    }],
-    "crs": {
-        "type": "name",
-        "properties": {
-            "name": "urn:ogc:def:crs:EPSG::28356"
-        }
-    }
+    }]
 }
