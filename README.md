@@ -32,6 +32,6 @@ Your goal is to build a React and Redux-based UI to explore this data. The inter
 
 ## Technology choices
 
-The use of React and Redux is required. Apart from that, you are completely free to choose libraries, frameworks and tools to best assist you in this challenge. The choice of the method of serving the data to the UI is also free.
+The use of React and Redux is required. Apart from that, you are completely free to choose libraries, frameworks and tools to best assist you in this challenge. The choice of the method of serving the data to the UI is up to you, but it should use a RESTful API approach.
 
 ### Good luck!
