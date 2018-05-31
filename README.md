@@ -1,4 +1,4 @@
-# Vortexa Front End Developer Test
+# Front End Developer Test
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -13,6 +13,10 @@ then simply run the project
 ```
 > npm start
 ```
+
+## How to take this test
+
+The is no right or wrong way to do this, we are more interested in the code you write, the development process you use rather than marking your work! Set yourself a time limit and see how get on.
 
 ## Data
 
