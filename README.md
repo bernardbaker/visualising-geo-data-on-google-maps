@@ -38,4 +38,8 @@ Your goal is to build a React and Redux-based UI to explore this data. The inter
 
 The use of React and Redux is required. Apart from that, you are completely free to choose libraries, frameworks and tools to best assist you in this challenge. The choice of the method of serving the data to the UI is up to you, but it should use a RESTful API approach.
 
+## Once complete
+
+When you've finished writing your code, please host it in a publicly accessible location (such as github) for us to clone, along with a readme on how to run it.
+
 ### Good luck!
