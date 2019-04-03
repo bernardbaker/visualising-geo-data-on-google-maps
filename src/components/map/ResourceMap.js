@@ -241,10 +241,7 @@ class ResourceMap extends Component {
   onMapClicked = () => {
     if (this.props.showingDetails) {
       this.props.showingDetailsAction(false);
-      this.setState({
-        // showingDetails: false,
-        selectedDataPointItem: {}
-      });
+      this.props.showingDataPointItemAction({});
     }
   };
 
