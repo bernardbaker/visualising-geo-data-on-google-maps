@@ -1,45 +1,60 @@
-# Technical challenge
+# JRGranell-javascript-challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+Technical challenge - build a React and Redux-based UI to explore a data set
 
-Before you start developing make sure you install all the dependencies:
 
-```
-> npm install
-```
+## Getting Started
 
-then simply run the project
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-```
-> npm start
-```
 
-## How to take this test
+### Prerequisites
 
-The is no right or wrong way to do this, we are more interested in the code you write, the development process you use rather than marking your work! Set yourself a time limit and see how get on.
+Node >= 10.15.1
 
-## Data
+Git >= 2.17.2
 
-The project contains a data set describing the location and metadata of boat ramps in Australia's Gold Coast. The data set can be found under `./data/boat_ramps.geojson`.
+Yarn >= 1.15.2
 
-It is a standard [GeoJSON](http://geojson.org/) file, with each feature consisting of a `geometry` and `properties`, such as owner, material that the ramp is made of, etc.
 
-## The challenge
+## Installing
 
-Your goal is to build a React and Redux-based UI to explore this data. The interface should have the following features:
+Clone the repository to your local machine. Change to the projects working directory and run `yarn`.
 
-1. A map to be able to visualise all the boat ramps.
-2. A data visualisation of your choice that displays the number or ramps per construction material.
-3. A data visualisation of your choice that displays the number of ramps per size category (values of `area` in 3 different ranges: `[0, 50)`, `[50, 200)`, and `[200, 526)`).
-4. Zooming in the map should filter the visualised data to include only those ramps which are currently visible in the viewport.
-5. Clicking on a data point on a visualisation, should filter the ramps on the map to reflect the selected data.
 
-## Technology choices
+### Running the solution
 
-The use of React and Redux is required. Apart from that, you are completely free to choose libraries, frameworks and tools to best assist you in this challenge. The choice of the method of serving the data to the UI is up to you, but it should use a RESTful API approach.
+On the command line (terminal) at the projects top level folder run `yarn start`.
 
-## Once complete
 
-When you've finished writing your code, please host it in a publicly accessible location (such as github) for us to clone, along with a readme on how to run it.
+### Running the tests
 
-### Good luck!
+`yarn test` to run tests.
+
+
+### Running the linter
+
+`yarn watch` to watch and run the linter.
+
+
+## Built With
+
+* [Create React App](https://github.com/facebook/create-react-app) - The web framework used
+* [Yarn](https://yarnpkg.com/lang/en) - Dependency Management
+* [SASS](https://sass-lang.com) - Used for CSS layouts and presentation
+* [A little bit of love](http://bernard-baker.herokuapp.com/) - I spent roughly 1.3 days developing this solution
+
+
+## Authors
+
+* **Bernard Baker** - *Design and development* - [Me on here](https://github.com/bernardbaker)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Vortexa for putting this JS challenge together... Nice one John-Robert Granell.
+
