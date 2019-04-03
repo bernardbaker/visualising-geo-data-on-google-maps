@@ -1,0 +1,6 @@
+node_modules
+.next
+src/registerServiceWorker.js
+src/lib/*
+**/*.test.js
+server/*

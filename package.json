@@ -3,14 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
+    "google-maps-react": "^2.0.2",
+    "path": "^0.12.7",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js & react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "react-scripts test --env=jsdom --watchAll --updateSnapshot",
+    "eject": "react-scripts eject",
+    "watch": "esw --watch --fix src"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-watch": "^5.0.1",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.4",
+    "react-test-renderer": "^16.8.6",
+    "watch": "^1.0.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

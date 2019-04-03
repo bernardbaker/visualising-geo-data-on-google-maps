@@ -1,0 +1,29 @@
+.resource-map-info-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgba(100,100,100,0.2);
+
+    .info-dashboard {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 1em;
+        height: calc(100vh - 2em);
+        border-left: 1em solid rgb(100,100,100);
+
+        p {
+            margin-bottom: 1em;
+        };
+    };
+};
+
+.resource-map-container {
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    width: 80vw;
+    height: 100vh;
+};
