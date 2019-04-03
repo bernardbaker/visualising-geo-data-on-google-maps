@@ -141,16 +141,13 @@ class ResourceMap extends Component {
             <b>Material</b>: {this.props.selectedDataPointItem.details.material}
           </p>
           <p>
-            <b>Asset Number</b>:
-            {this.props.selectedDataPointItem.details.asset_numb}
+            <b>Asset Number</b>: {this.props.selectedDataPointItem.details.asset_numb}
           </p>
           <p>
-            <b>Shape Area</b>:
-            {this.props.selectedDataPointItem.details.shape_area}
+            <b>Shape Area</b>: {this.props.selectedDataPointItem.details.shape_area}
           </p>
           <p>
-            <b>Shape Length</b>:
-            {this.props.selectedDataPointItem.details.shape_leng}
+            <b>Shape Length</b>: {this.props.selectedDataPointItem.details.shape_leng}
           </p>
         </div>
       );
