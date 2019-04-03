@@ -22,9 +22,19 @@ Yarn >= 1.15.2
 Clone the repository to your local machine. Change to the projects working directory and run `yarn`.
 
 
+### Running the solution
+
+On the command line (terminal) at the projects top level folder run `yarn start`.
+
+
 ## Running the tests
 
 `yarn test` to run tests.
+
+
+## Running the linter
+
+`yarn watch` to watch and run the linter.
 
 
 ## Built With
