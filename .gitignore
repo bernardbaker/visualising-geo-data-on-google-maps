@@ -4,7 +4,8 @@
 /node_modules
 
 # testing
-__snapshots__
+components/app/__snapshots__
+components/map/__snapshots__
 
 # production
 /build
